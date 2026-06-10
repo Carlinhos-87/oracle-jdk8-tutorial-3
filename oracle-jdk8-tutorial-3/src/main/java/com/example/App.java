@@ -99,5 +99,33 @@ public class App {
     	sb.append(" World").insert(0, "Hey, ").delete(4, 10);
     	
     	System.out.println(sb);
+    	
+    	/* Ejercicio # 1 del Martes 9 junio. 
+    	 * 
+    	 * Rescribir el codigo siguiente que concatena 100 valores en bucle, utilizando
+    	 * la sentancia for clasica, para utilizar: 
+    	 * 
+    	 * 1- La clase StringBuilder y sus metodos correspondientes
+    	 * 2- En lugar de una sentencia for clasica utilizar una sentencia while 
+    	 * 
+    	 *     	
+    	String resultado = "";
+    	
+    	for (int i = 0; i < 100; i++) {
+    		resultado = resultado.concat(Integer.toString(i));
+    	}
+    	
+    	*/
+    	
+    	StringBuilder sb4 = new StringBuilder();
+    	
+    	int i = 0;
+    	
+    	while ( i < 100) {
+    		sb4.append(Integer.toString(i++)).append(" ");
+    	}
+    	
+    	System.out.println(sb4);
+    	
     }
 }
