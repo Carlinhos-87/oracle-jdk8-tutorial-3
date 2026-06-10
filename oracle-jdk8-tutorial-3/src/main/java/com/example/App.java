@@ -127,5 +127,12 @@ public class App {
     	
     	System.out.println(sb4);
     	
+    	/* Metodos mas utilizados de la clase String, que son validos, en su
+    	 * mayoria, para la clase StringBuilder tambien */
+    	
+    	String sampleCadena = "Yodalis Ninoska Grillo";
+    	
+    	
+    	
     }
 }
